@@ -7,13 +7,15 @@ E-mail: 112258018@g.nccu.edu.tw
 
 ## Installation
 To install dependencies, use the following commands:
-sh
+```sh
 conda install pytorch==2.4.1 torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 conda install -c conda-forge pennylane=0.38.0
+```
 
 ## Code Description
 
 ### Directories and Files
+```
 1_mnist/                # Implementation for the MNIST dataset.
 2_fmnist/               # Implementation for the FMNIST dataset.
 1_mnist/1_data/         # Downloads the MNIST dataset and converts it to (8×8) pixel format.
@@ -32,14 +34,13 @@ Result/                 # Stores results from 1_classical and 2_quantum.
 3_noise/                # Introduces quantum noise using depolarizing and phase-damping channels.
   ├── 1_default.qubit/  # Reads trained parameters and calculates accuracy.
   ├── 2_default.mixed/  # Reads trained parameters, adds noise, and calculates accuracy.
+```
 
 ## Usage
 1. Clone the repository:
-   
-sh
+   ```sh
    git clone <repo_url>
    cd <repo_name>
-   
-
+   ```
 2. Set up the environment using Conda (see Installation section above).
 3. Run experiments using provided scripts in `1_mnist/`, `2_fmnist/`, and `3_noise/`.
