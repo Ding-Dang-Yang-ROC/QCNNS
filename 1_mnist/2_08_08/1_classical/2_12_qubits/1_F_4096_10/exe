@@ -1,3 +1,0 @@
-rm Result/*
-python3 train_1_F_4096_10.py
-

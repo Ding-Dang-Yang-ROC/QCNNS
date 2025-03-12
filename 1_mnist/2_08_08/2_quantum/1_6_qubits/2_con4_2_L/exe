@@ -1,3 +1,0 @@
-rm Result/*
-python3 train_2_con4_2.py
-
