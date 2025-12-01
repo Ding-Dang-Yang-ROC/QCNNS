@@ -1,4 +1,4 @@
-# Simulating Nonlinearity in Quantum Neural Networks While Mitigating Barren Plateaus
+# Nonlinear Quantum Convolutional Neural Networks with Reduced Barren Plateaus
 
 ## Author
 **Ding-Dang Yang**  
